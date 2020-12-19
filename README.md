@@ -9,7 +9,6 @@ A Virtual Machine
 
 AWS CLI 2.0 installed on your system
 
-
 Step 1
 
 Export the Virtual Machine Image to a file on your computer. Ensure that the format is .vmdk or .ova
@@ -99,13 +98,13 @@ aws ec2 describe-import-image-tasks --import-task-ids import-ami-07d69203e50f956
 
 ===================================================================================
 [
-  {
-    "Description": "[Insert whatever your heart desires] ",
-    "Format": "ova",
-    "UserBucket": {
-      "S3Bucket": "[Insert Bucket Name]",
-      "S3Key": "[Insert VMIMage file name]"
-    }
-  }
+{
+"Description": "[Insert whatever your heart desires] ",
+"Format": "ova",
+"UserBucket": {
+"S3Bucket": "[Insert Bucket Name]",
+"S3Key": "[Insert VMIMage file name]"
+}
+}
 ]
 ========================================================================================
