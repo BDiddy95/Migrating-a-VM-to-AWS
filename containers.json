@@ -4,7 +4,7 @@
     "Format": "ova",
     "UserBucket": {
         "S3Bucket": "[Insert Bucket Name]",
-        "S3Key": [Insert VMIMage file name]"
+        "S3Key": "[Insert VMImage file name]"
     }
   }
 ]
