@@ -1,0 +1,10 @@
+[
+ {
+    "Description": "Linux DevOps Server",
+    "Format": "ova",
+    "UserBucket": {
+        "S3Bucket": "vmimagebucky",
+        "S3Key": "CentOS8.ova"
+    }
+  }
+ ]
