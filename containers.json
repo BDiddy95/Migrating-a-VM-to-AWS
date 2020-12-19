@@ -1,10 +1,10 @@
 [
  {
-    "Description": "Linux DevOps Server",
+    "Description": "[Insert whatever your heart desires]",
     "Format": "ova",
     "UserBucket": {
-        "S3Bucket": "vmimagebucky",
-        "S3Key": "CentOS8.ova"
+        "S3Bucket": "[Insert Bucket Name]",
+        "S3Key": [Insert VMIMage file name]"
     }
   }
- ]
+]
