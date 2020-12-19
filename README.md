@@ -1,5 +1,5 @@
 # Migrating-a-VM-to-AWS
-This project portrays the procedure necessary to move a Linux VMI to AWS.
+This project portrays the procedure necessary to move a Linux VMI running on a windows host to AWS.
 
 Steps to migrate VM to AWS
 
@@ -20,7 +20,7 @@ Create an S3 bucket and upload the image file to this bucket.
 --
 aws s3 mb s3://[Insert-Bucket-Name]
 
-aws s3api put-object --bucket [Bucket you created] --key [Vm Image file]  --body [Insert File Path (If using windows)] ** [Linux?]
+aws s3api put-object --bucket [Bucket you created] --key [Vm Image file]  --body [Insert File Path (If using windows)] ** 
 
 --
 
